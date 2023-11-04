@@ -1,0 +1,80 @@
+body{
+  background-color:#424530;
+  color:#ffefcd;
+}
+input{
+  border-radius: 15px;
+  height: 30px;
+  padding: 5px 20px;
+}
+label{
+  margin-bottom: 15px;
+}
+button{
+  border: 1px solid #152613;
+  background-color: #84854d;
+  border-radius: 10px;
+  padding: 15px;
+}
+.App__container{
+  padding: 30px 10px;
+}
+.App__error{
+  color:#db1e0d;
+}
+.App__input-holder{
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 30px 20px;
+  max-width: 1000px;
+  background-color: #202220;
+  text-align: center;
+}
+.App__input-item{
+  margin: 0 auto;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.input-item__gender{
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+.input-item__holder{
+  display: flex;
+text-align: center;
+
+}
+
+.modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  align-items:center;
+  display: flex;
+  justify-content: center;
+}
+
+.modal__content{
+  width: 600px;
+  padding: 30px;
+  background-color: #152613;
+  border-radius:10px;
+}
+.modal__close{
+  text-align:right;
+  margin-bottom:20px;
+}
+.modal__info{
+  margin-bottom:50px;
+  text-align:center;
+}
+.modal__button img{
+  width: 20px;
+}
