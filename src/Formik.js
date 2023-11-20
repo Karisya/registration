@@ -88,7 +88,7 @@ export const RegistrationForm = () => {
         </Form>
       </Formik>
       {
-        !show ? null : <Modal value={value} onClose={() => setShow(false)} />
+        show && <Modal value={value} onClose={() => setShow(false)} />
       }
     </>
 
